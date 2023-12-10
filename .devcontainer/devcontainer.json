@@ -1,0 +1,15 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "sleb/cya-frontend": {
+          "permissions": "write-all"
+        },
+        "sleb/cya-model": {
+          "permissions": "write-all"
+        }
+      }
+    }
+  }
+}
